@@ -1,5 +1,5 @@
-﻿
-html, body {
+﻿html, body {
+    /* Need to replace with a proper background at somepoint -Moth */
     background-color: lightsteelblue;
 }
 
@@ -9,9 +9,15 @@ h1 {
     font-family: 'Noto Serif';
 }
 
-p {
+p.main {
     color: black;
     text-align: center;
+    font-family: 'Noto Serif';
+}
+
+p.tab {
+    color: black;
+    text-align: left;
     font-family: 'Noto Serif';
 }
 
