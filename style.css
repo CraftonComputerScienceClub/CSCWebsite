@@ -3,6 +3,28 @@
     background-color: lightsteelblue;
 }
 
+.tab {
+    overflow: hidden;
+    border: 1px solid #ccc;
+    background-color: #000000;
+}
+
+.tab button {
+    background-color: inherit;
+    float: left;
+    color: white;
+    border: 1px solid #ccc;
+    outline: none;
+    cursor: pointer;
+    padding: 30px 20px;
+    transition: 0.3s;
+    font-size: 17px;
+}
+
+.tab button:hover{
+    background-color: #808080
+}
+
 h1 {
     text-align: center;
     border: 5px solid;
