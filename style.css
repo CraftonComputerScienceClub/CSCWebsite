@@ -1,24 +1,30 @@
 ﻿html, body {
     /* Need to replace with a proper background at somepoint -Moth */
-    background-color: lightsteelblue;
+    background-color: #101010;
+    font-family: Genos, serif;
 }
 
 .tab {
     overflow: hidden;
     border: 1px solid #ccc;
     background-color: #000000;
+    display:grid;
+    grid-template-columns: repeat(4, auto);
+    float: right;
+    width: 100%;
+    margin-bottom: 20px;
 }
 
 .tab button {
     background-color: inherit;
-    float: left;
     color: white;
     border: 1px solid #ccc;
     outline: none;
     cursor: pointer;
     padding: 30px 20px;
     transition: 0.3s;
-    font-size: 17px;
+    font-size: 30px;
+    font-family: inherit;
 }
 
 .tab button:hover{
@@ -26,21 +32,24 @@
 }
 
 h1 {
+    margin: 50px;
+    clear: both;
     text-align: center;
-    border: 5px solid;
-    font-family: 'Noto Serif';
+    font-family: inherit;
+    color:white;
+    font-size: 50px;
 }
 
-p.main {
-    color: black;
+.header_message {
     text-align: center;
-    font-family: 'Noto Serif';
+    font-family: inherit;
+    color: white;
+    font-size: 30px;
 }
 
 p.tab {
-    color: black;
     text-align: left;
-    font-family: 'Noto Serif';
+    font-family: inherit;
 }
 
 .footer {
@@ -51,4 +60,19 @@ p.tab {
     height: 100px;
     width: 80%;
     overflow: hidden;
+}
+
+.club_banner {
+    width: 100%;
+    height: auto;
+}
+
+h3 {
+    color: white;
+    font-family: inherit;
+}
+
+.footerInfo {
+    color: white;
+    font-family: inherit;
 }
