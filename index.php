@@ -12,9 +12,6 @@
     include "navbar.html";
     ?>
     <p class="main">Add description here</p>
-    <div class="footer">
-        <p class="main">Add contact information here</p>
-    </div>
     <h1>
         CHC Computer Science Club
     </h1>                  
@@ -36,15 +33,6 @@
         even post graduate career readiness. The club is always changing to reflect the
         wants and needs of current members, so join now!
     </p>
-
-    <hr />
-    <h3>Contact Information:</h3>
-    <p class="footerInfo">Club Email: craftoncsclub@gmail.com</p>
-    <hr />
-
-
-
-
 </body>
 </html>
 
