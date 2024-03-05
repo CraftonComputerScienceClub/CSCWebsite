@@ -1,4 +1,4 @@
-﻿<!DOCTYPE html>
+<!DOCTYPE html>
 <html lang="en" xmlns="http://www.w3.org/1999/xhtml">
 <head>
     <link href="style.css" rel="stylesheet"/>
@@ -6,12 +6,10 @@
     <title>CSC Website</title>
 </head>
 <body>
-    <div class="tab">
-        <button>Home</button>
-        <button>Projects</button>
-        <button>Socials</button>
-        <button>Staff</button>
-    </div>
+    <!-- Navigation bar. -->
+    <?php
+    include "navbar.html";
+    ?>
     <p class="main">Add description here</p>
     <div class="footer">
         <p class="main">Add contact information here</p>
@@ -21,7 +19,7 @@
         Science Club
     </h1>                  
 
-    <hr />      <!-- hr makes a line across the screen -->
+    <hr/>      <!-- hr makes a line across the screen -->
 
     <p>Join cs club message</p>       <!-- Banner in the middle of the screen. image maybe? poster? instead of plain text.-->
 

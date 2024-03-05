@@ -3,26 +3,23 @@
     background-color: lightsteelblue;
 }
 
-.tab {
+.navigation_tabs {
+    background-color: black;
     overflow: hidden;
-    border: 1px solid #ccc;
-    background-color: #000000;
 }
 
-.tab button {
-    background-color: inherit;
-    float: left;
+.navigation_tabs a {
+    float: right;
     color: white;
-    border: 1px solid #ccc;
-    outline: none;
-    cursor: pointer;
-    padding: 30px 20px;
-    transition: 0.3s;
-    font-size: 17px;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 60px;
 }
 
-.tab button:hover{
-    background-color: #808080
+.navigation_tabs a:hover {
+    background-color: dimgrey;
+    color: black;
 }
 
 h1 {
