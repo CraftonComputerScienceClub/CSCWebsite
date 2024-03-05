@@ -1,6 +1,7 @@
 ﻿html, body {
     /* Need to replace with a proper background at somepoint -Moth */
-    background-color: lightsteelblue;
+    background-color: #101010;
+    font-family: Genos, serif;
 }
 
 .navigation_tabs {
@@ -23,21 +24,24 @@
 }
 
 h1 {
+    margin: 50px;
+    clear: both;
     text-align: center;
-    border: 5px solid;
-    font-family: 'Noto Serif';
+    font-family: inherit;
+    color:white;
+    font-size: 50px;
 }
 
-p.main {
-    color: black;
+.header_message {
     text-align: center;
-    font-family: 'Noto Serif';
+    font-family: inherit;
+    color: white;
+    font-size: 30px;
 }
 
 p.tab {
-    color: black;
     text-align: left;
-    font-family: 'Noto Serif';
+    font-family: inherit;
 }
 
 .footer {
@@ -48,4 +52,19 @@ p.tab {
     height: 100px;
     width: 80%;
     overflow: hidden;
+}
+
+.club_banner {
+    width: 100%;
+    height: auto;
+}
+
+h3 {
+    color: white;
+    font-family: inherit;
+}
+
+.footerInfo {
+    color: white;
+    font-family: inherit;
 }

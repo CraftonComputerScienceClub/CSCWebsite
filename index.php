@@ -2,6 +2,7 @@
 <html lang="en" xmlns="http://www.w3.org/1999/xhtml">
 <head>
     <link href="style.css" rel="stylesheet"/>
+    <link href="https://fonts.googleapis.com/css?family=Genos" rel="stylesheet">
     <meta charset="utf-8">
     <title>CSC Website</title>
 </head>
@@ -15,32 +16,35 @@
         <p class="main">Add contact information here</p>
     </div>
     <h1>
-        CHC Computer<br>        <!-- Top right. home button? -->
-        Science Club
+        CHC Computer Science Club
     </h1>                  
 
     <hr/>      <!-- hr makes a line across the screen -->
 
-    <p>Join cs club message</p>       <!-- Banner in the middle of the screen. image maybe? poster? instead of plain text.-->
+    <p class="header_message">Join cs club! We do X, Y, and Z!</p>       <!-- Banner in the middle of the screen. image maybe? poster? instead of plain text.-->
 
-    <img src="club_poster_v1.png" width="500" height="700">         
+    <img src="banner.png" class="club_banner" alt="Club Banner">
 
     <hr />
 
     <h3>Description:</h3>
-    <p>
-        The goal of the Computer Science club is to be a platform for CHC students to           <!--Club description ADD <br> LATER-->
+    <p class="footerInfo">
+        The goal of the Computer Science club is to be a platform for CHC students to           <!--Club description ADD <br> LATER if needed-->
         enhance their programming and teamwork skills. As a group, we work on a variety
-        of different projects, effectivly diversifying our experience and our project
-        portfolio. This includes topics ranging from game design to website creation, and        <!--OPEN TO EDITS!!-->
+        of different projects with the intention of diversifying our experiences and our project
+        portfolio. This includes topics ranging from game design to website creation, and           <!--OPEN TO EDITS!!-->
         even post graduate career readiness. The club is always changing to reflect the
-        wants and needs of current members, so join now and get something out of it.
+        wants and needs of current members, so join now!
     </p>
 
     <hr />
     <h3>Contact Information:</h3>
-    <p>Club Email: craftoncsclub@gmail.com</p>
+    <p class="footerInfo">Club Email: craftoncsclub@gmail.com</p>
     <hr />
+
+
+
 
 </body>
 </html>
+
