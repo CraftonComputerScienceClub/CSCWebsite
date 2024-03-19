@@ -1,5 +1,4 @@
 ﻿html, body {
-    /* Need to replace with a proper background at somepoint -Moth */
     background-color: #101010;
     font-family: Genos, serif;
 }
@@ -21,6 +20,12 @@
 .navigation_tabs a:hover {
     background-color: dimgrey;
     color: black;
+}
+
+.navigation_tabs a:active {
+    background-color: dimgrey;
+    color: black;
+    transform: scale(0.95);
 }
 
 h1 {
