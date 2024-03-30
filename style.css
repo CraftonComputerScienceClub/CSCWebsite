@@ -1,0 +1,75 @@
+﻿html, body {
+    background-color: #101010;
+    font-family: Genos, serif;
+}
+
+.navigation_tabs {
+    background-color: black;
+    overflow: hidden;
+}
+
+.navigation_tabs a {
+    float: right;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 60px;
+}
+
+.navigation_tabs a:hover {
+    background-color: dimgrey;
+    color: black;
+}
+
+.navigation_tabs a:active {
+    background-color: dimgrey;
+    color: black;
+    transform: scale(0.95);
+}
+
+h1 {
+    margin: 50px;
+    clear: both;
+    text-align: center;
+    font-family: inherit;
+    color:white;
+    font-size: 50px;
+}
+
+.header_message {
+    text-align: center;
+    font-family: inherit;
+    color: white;
+    font-size: 30px;
+}
+
+p.tab {
+    text-align: left;
+    font-family: inherit;
+}
+
+.footer {
+    background-color: floralwhite;
+    position: absolute;
+    bottom: 0;
+    left: 10%;
+    height: 100px;
+    width: 80%;
+    overflow: hidden;
+}
+
+.club_banner {
+    width: 100%;
+    height: auto;
+}
+
+h3 {
+    color: white;
+    font-family: inherit;
+}
+
+.footerInfo {
+    color: white;
+    font-family: inherit;
+}
