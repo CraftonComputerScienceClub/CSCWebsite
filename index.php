@@ -28,10 +28,10 @@
     <p class="footerInfo">
         The goal of the Computer Science club is to be a platform for CHC students to           <!--Club description ADD <br> LATER if needed-->
         enhance their programming and teamwork skills. As a group, we work on a variety
-        of different projects with the intention of diversifying our experiences and our project
-        portfolio. This includes topics ranging from game design to website creation, and           <!--OPEN TO EDITS!!-->
-        even post graduate career readiness. The club is always changing to reflect the
-        wants and needs of current members, so join now!
+        of different projects with the intention of diversifying our experiences and our
+        project portfolio. This includes topics ranging from game design to website
+        creation, and even post graduate career readiness. The club is always changing
+        to reflect the wants and needs of current members, so join now!
     </p>
 </body>
 </html>
