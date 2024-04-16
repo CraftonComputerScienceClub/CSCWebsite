@@ -7,18 +7,16 @@
     <title>CSC Website</title>
 </head>
 <body>
+    <h1>CHC Computer Science Club</h1>
     <!-- Navigation bar. -->
     <?php
     include "navbar.html";
     ?>
-    <p class="main">Add description here</p>
-    <h1>
-        CHC Computer Science Club
-    </h1>                  
+    <p class="main">Add description here</p>              
 
     <hr/>      <!-- hr makes a line across the screen -->
 
-    <p class="header_message">Join cs club! We do X, Y, and Z!</p>       <!-- Banner in the middle of the screen. image maybe? poster? instead of plain text.-->
+    <p class="header_message">Get involved! Join the CS club!</p>       <!-- Banner in the middle of the screen. image maybe? poster? instead of plain text.-->
 
     <img src="banner.png" class="club_banner" alt="Club Banner">
 
@@ -28,10 +26,10 @@
     <p class="footerInfo">
         The goal of the Computer Science club is to be a platform for CHC students to           <!--Club description ADD <br> LATER if needed-->
         enhance their programming and teamwork skills. As a group, we work on a variety
-        of different projects with the intention of diversifying our experiences and our
-        project portfolio. This includes topics ranging from game design to website
-        creation, and even post graduate career readiness. The club is always changing
-        to reflect the wants and needs of current members, so join now!
+        of different projects with the intention of diversifying our experiences and the
+        project portfolio of each member. This includes topics ranging from game design
+        to website creation, and even post graduate career readiness. The club is always
+        changing to reflect the wants and needs of current members, so join now!
     </p>
 </body>
 </html>
