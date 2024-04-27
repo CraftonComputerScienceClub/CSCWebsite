@@ -1,6 +1,8 @@
-﻿html, body {
+html, body {
     background-color: #101010;
     font-family: Genos, serif;
+    margin: 0px;
+    padding: 0px;
 }
 
 .navigation_tabs {
@@ -62,13 +64,12 @@
     }
 
 h1 {
-    margin: 50px;
+    margin: 0px;
     clear: both;
     text-align: center;
     font-family: inherit;
-    color: white;
-    font-size: 50px;
-}
+    color:white;
+    font-size: 60px;
 
 .header_message {
     text-align: center;
@@ -97,15 +98,19 @@ p.tab {
     height: auto;
 }
 
-h3 {
+h2 {
     color: white;
     font-family: inherit;
+    padding: 15px;
+    margin: 0px;
 }
 
 .footerInfo {
     color: white;
     font-family: inherit;
-}
+    padding: 15px;
+    margin: 0px;
+
 
 .staff-cards {
     display:grid;
@@ -129,3 +134,4 @@ h3 {
     padding-top: 40px;
     font-size: 60px;
 }
+
