@@ -13,8 +13,6 @@
     include "navbar.html";
     ?>
     <h1>CHC Computer Science Club</h1>
-    <p class="main">Add description here</p>              
-
     <hr/>      <!-- hr makes a line across the screen -->
 
     <!-- Banner in the middle of the screen. Something about "Join the CS club!" in the banner.-->
@@ -34,4 +32,3 @@
     </p>
 </body>
 </html>
-

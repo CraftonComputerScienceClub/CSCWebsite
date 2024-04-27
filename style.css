@@ -1,4 +1,4 @@
-﻿html, body {
+html, body {
     background-color: #101010;
     font-family: Genos, serif;
     margin: 0px;
@@ -8,27 +8,60 @@
 .navigation_tabs {
     background-color: black;
     overflow: hidden;
+
+    position: absolute;
+    right: 0;
+    left: 0;
+    top: 0;
+
+    margin-top: 0;
 }
 
-.navigation_tabs a {
-    float: right;
-    color: white;
+    .navigation_tabs a {
+        float: right;
+        color: white;
+        text-align: center;
+        padding: 14px 16px;
+        text-decoration: none;
+        font-size: 60px;
+    }
+
+        .navigation_tabs a:hover {
+            background-color: dimgrey;
+            color: black;
+        }
+
+        .navigation_tabs a:active {
+            background-color: dimgrey;
+            color: black;
+            transform: scale(0.95);
+        }
+
+.project_list {
     text-align: center;
-    padding: 14px 16px;
-    text-decoration: none;
-    font-size: 60px;
+    list-style-type: none;
 }
 
-.navigation_tabs a:hover {
-    background-color: dimgrey;
-    color: black;
-}
+    .project_list img {
+        width: 600px;
+        height: 300px;
+        object-fit: cover;
+    }
 
-.navigation_tabs a:active {
-    background-color: dimgrey;
-    color: black;
-    transform: scale(0.95);
-}
+    .project_list h1{
+        color: white;
+        font-size: 60px;
+        margin: 10px;
+    }
+
+    .project_list p{
+        color: white;
+        font-size: 30px;
+    }
+
+    .project_list a{
+        font-size: 30px;
+    }
 
 h1 {
     margin: 0px;
@@ -37,7 +70,6 @@ h1 {
     font-family: inherit;
     color:white;
     font-size: 60px;
-}
 
 .header_message {
     text-align: center;
@@ -78,4 +110,28 @@ h2 {
     font-family: inherit;
     padding: 15px;
     margin: 0px;
+
+
+.staff-cards {
+    display:grid;
+    grid-template-columns: repeat(1, 1fr);
+    grid-template-rows: repeat(3, auto);
+    gap: 10px;
+    padding: 10px;
 }
+
+.staff-card {
+    color: white;
+    display: flex;
+    gap:75px;
+    align-items: center;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    font-size:50px;
+}
+
+.staff-title {
+    padding-top: 40px;
+    font-size: 60px;
+}
+
