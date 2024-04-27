@@ -6,6 +6,13 @@
 .navigation_tabs {
     background-color: black;
     overflow: hidden;
+
+    position: absolute;
+    right: 0;
+    left: 0;
+    top: 0;
+
+    margin-top: 0;
 }
 
     .navigation_tabs a {
@@ -98,4 +105,27 @@ h3 {
 .footerInfo {
     color: white;
     font-family: inherit;
+}
+
+.staff-cards {
+    display:grid;
+    grid-template-columns: repeat(1, 1fr);
+    grid-template-rows: repeat(3, auto);
+    gap: 10px;
+    padding: 10px;
+}
+
+.staff-card {
+    color: white;
+    display: flex;
+    gap:75px;
+    align-items: center;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    font-size:50px;
+}
+
+.staff-title {
+    padding-top: 40px;
+    font-size: 60px;
 }
