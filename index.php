@@ -21,7 +21,7 @@
 
     <hr />
 
-    <h2>Description:</h2>
+    <h2>Who We Are:</h2>
     <p class="footerInfo">
         The goal of the Computer Science club is to be a platform for CHC students to           <!--Club description ADD <br> LATER if needed-->
         enhance their programming and teamwork skills. As a group, we work on a variety
