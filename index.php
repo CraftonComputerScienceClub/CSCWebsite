@@ -17,7 +17,7 @@
 
     <!-- Banner in the middle of the screen. Something about "Join the CS club!" in the banner.-->
 
-    <img src="banner.png" class="club_banner" alt="Club Banner">
+    <img src="banner.gif" class="club_banner" alt="Club Banner">
 
     <hr />
 

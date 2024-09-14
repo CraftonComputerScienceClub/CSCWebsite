@@ -19,27 +19,27 @@ include "navbar.html";
 
 <div class="staff-cards">
     <div class="staff-card">
-        <img src="Jakob.png">
-        <p>
-            <span style="font-size: 90px">Jakob Barringer</span>
-            <br>President<br></p>
-    </div>
-    <div class="staff-card">
-        <img src="max.png">
+        <img src="max.png" />
         <p>
             <span style="font-size: 90px">Maxwell Smith</span>
-            <br>Vice President<br></p>
+            <br>President<br></p>
     </div>
     <div class="staff-card">
         <img src="blake.png">
         <p>
             <span style="font-size: 90px">Blake Benfield</span>
+            <br>Vice President<br></p>
+    </div>
+    <div class="staff-card">
+        <img src="Kenui.jpeg">
+        <p>
+            <span style="font-size: 90px">Kenuinaluokapono Kalanui</span>
             <br>Secretary<br></p>
     </div>
     <div class="staff-card">
-        <img src="tommy.png">
+        <img src="Dane.jpg">
         <p>
-            <span style="font-size: 90px">Thomas Van Esch</span>
+            <span style="font-size: 90px">Dane Borg</span>
             <br>Treasurer<br></p>
     </div>
 
